@@ -83,7 +83,6 @@
   "functional_issues": [
     {
       "id": "8656",
-      "assessement_date": "2024-06-25T22:00:00.000Z",
       "functional_checklist": "McGowan, Emma - Custom",
       "headings": [
         {
@@ -94,22 +93,238 @@
             {
               "id": 1,
               "subheading_name": "Bath/Shower",
-              "score": 1
+              "collaborator_scores": [
+                {
+                  "collaborator": {
+                    "firstname": "Laura",
+                    "lastname": "Shah",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "Pharmacist",
+                      "abbreviation": "Pharm"
+                    },
+                    "email": "laura.shah@example.com",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "assessement_date": "19 July 2020",
+                  "grade": 1
+                },
+                {
+                  "collaborator": {
+                    "firstname": "Dr. Gupta",
+                    "lastname": "",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "Managing director rehab",
+                      "abbreviation": "MD-Rehab"
+                    },
+                    "email": "gupta@example.com",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "assessement_date": "19 July 2020",
+                  "grade": 3
+                },
+                {
+                  "collaborator": {
+                    "firstname": "Kit",
+                    "lastname": "Mara",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "nurse",
+                      "abbreviation": "Nur"
+                    },
+                    "email": "kit.mara@example.com",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "assessement_date": "19 July 2020",
+                  "grade": 2
+                },
+                {
+                  "collaborator": {
+                    "firstname": "Brent",
+                    "lastname": "James",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "OT",
+                      "abbreviation": "OT"
+                    },
+                    "email": "brent.james@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "grade": 2,
+                  "assessement_date": "2024-07-15T22:00:00.000Z"
+                }
+              ]
             },
             {
               "id": 2,
               "subheading_name": "Dressing",
-              "score": 3
+              "collaborator_scores": [
+                {
+                  "collaborator": {
+                    "firstname": "Laura",
+                    "lastname": "Shah",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "Pharmacist",
+                      "abbreviation": "Pharm"
+                    },
+                    "email": "laura.shah@example.com",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "assessement_date": "19 July 2020",
+                  "grade": 4
+                },
+                {
+                  "collaborator": {
+                    "firstname": "Brent",
+                    "lastname": "James",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "OT",
+                      "abbreviation": "OT"
+                    },
+                    "email": "brent.james@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "grade": 2,
+                  "assessement_date": "2024-07-15T22:00:00.000Z"
+                }
+              ]
             },
             {
               "id": 3,
               "subheading_name": "Personal Hygiene & Grooming",
-              "score": 2
+              "collaborator_scores": [
+                {
+                  "collaborator": {
+                    "firstname": "Brent",
+                    "lastname": "James",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "OT",
+                      "abbreviation": "OT"
+                    },
+                    "email": "brent.james@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "grade": 3,
+                  "assessement_date": "2024-07-15T22:00:00.000Z"
+                }
+              ]
             },
             {
               "id": 4,
               "subheading_name": "Home Mobility",
-              "score": 4
+              "collaborator_scores": [
+                {
+                  "collaborator": {
+                    "firstname": "Brent",
+                    "lastname": "James",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "OT",
+                      "abbreviation": "OT"
+                    },
+                    "email": "brent.james@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "grade": 2,
+                  "assessement_date": "2024-07-15T22:00:00.000Z"
+                }
+              ]
             }
           ]
         },
@@ -121,32 +336,200 @@
             {
               "id": 1,
               "subheading_name": "Self-Medication",
-              "score": 0
+              "collaborator_scores": [
+                {
+                  "collaborator": {
+                    "firstname": "Brent",
+                    "lastname": "James",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "OT",
+                      "abbreviation": "OT"
+                    },
+                    "email": "brent.james@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "grade": 3,
+                  "assessement_date": "2024-07-15T22:00:00.000Z"
+                }
+              ]
             },
             {
               "id": 2,
               "subheading_name": "Being on Own",
-              "score": 0
+              "collaborator_scores": [
+                {
+                  "collaborator": {
+                    "firstname": "Brent",
+                    "lastname": "James",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "OT",
+                      "abbreviation": "OT"
+                    },
+                    "email": "brent.james@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "grade": 3,
+                  "assessement_date": "2024-07-15T22:00:00.000Z"
+                }
+              ]
             },
             {
               "id": 3,
               "subheading_name": "Interpersonal Skills",
-              "score": 0
+              "collaborator_scores": [
+                {
+                  "collaborator": {
+                    "firstname": "Brent",
+                    "lastname": "James",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "OT",
+                      "abbreviation": "OT"
+                    },
+                    "email": "brent.james@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "grade": 4,
+                  "assessement_date": "2024-07-15T22:00:00.000Z"
+                }
+              ]
             },
             {
               "id": 4,
               "subheading_name": "Meal Preparation",
-              "score": 0
+              "collaborator_scores": [
+                {
+                  "collaborator": {
+                    "firstname": "Brent",
+                    "lastname": "James",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "OT",
+                      "abbreviation": "OT"
+                    },
+                    "email": "brent.james@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "grade": 4,
+                  "assessement_date": "2024-07-15T22:00:00.000Z"
+                }
+              ]
             },
             {
               "id": 5,
               "subheading_name": "Laundry",
-              "score": 0
+              "collaborator_scores": [
+                {
+                  "collaborator": {
+                    "firstname": "Brent",
+                    "lastname": "James",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "OT",
+                      "abbreviation": "OT"
+                    },
+                    "email": "brent.james@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "grade": 4,
+                  "assessement_date": "2024-07-15T22:00:00.000Z"
+                }
+              ]
             },
             {
               "id": 6,
               "subheading_name": "Route Training",
-              "score": 0
+              "collaborator_scores": [
+                {
+                  "collaborator": {
+                    "firstname": "Brent",
+                    "lastname": "James",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "OT",
+                      "abbreviation": "OT"
+                    },
+                    "email": "brent.james@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "grade": 2,
+                  "assessement_date": "2024-07-15T22:00:00.000Z"
+                }
+              ]
             }
           ]
         },
@@ -158,203 +541,101 @@
             {
               "id": 1,
               "subheading_name": "Community Healthcare Providers",
-              "score": 0
+              "collaborator_scores": [
+                {
+                  "collaborator": {
+                    "firstname": "Brent",
+                    "lastname": "James",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "OT",
+                      "abbreviation": "OT"
+                    },
+                    "email": "brent.james@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "grade": 2,
+                  "assessement_date": "2024-07-15T22:00:00.000Z"
+                }
+              ]
             },
             {
               "id": 2,
               "subheading_name": "Medical Admin Paperwork",
-              "score": 0
+              "collaborator_scores": [
+                {
+                  "collaborator": {
+                    "firstname": "Brent",
+                    "lastname": "James",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "OT",
+                      "abbreviation": "OT"
+                    },
+                    "email": "brent.james@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "grade": 3,
+                  "assessement_date": "2024-07-15T22:00:00.000Z"
+                }
+              ]
             },
             {
               "id": 3,
               "subheading_name": "Family Support",
-              "score": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "f5fb",
-      "assessement_date": "2024-06-25T22:00:00.000Z",
-      "functional_checklist": "McGowan, Emma - Custom",
-      "headings": [
-        {
-          "id": 1,
-          "heading_name": "Activities of Daily Living - ADLs",
-          "scoring_scale": "1-5",
-          "subheadings": [
-            {
-              "id": 1,
-              "subheading_name": "Bath/Shower",
-              "score": 0
-            },
-            {
-              "id": 2,
-              "subheading_name": "Dressing",
-              "score": 0
-            },
-            {
-              "id": 3,
-              "subheading_name": "Personal Hygiene & Grooming",
-              "score": 0
-            },
-            {
-              "id": 4,
-              "subheading_name": "Home Mobility",
-              "score": 0
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "heading_name": "Instrumental Activities of Daily Living - IADLs",
-          "scoring_scale": "1-5",
-          "subheadings": [
-            {
-              "id": 1,
-              "subheading_name": "Self-Medication",
-              "score": 0
-            },
-            {
-              "id": 2,
-              "subheading_name": "Being on Own",
-              "score": 0
-            },
-            {
-              "id": 3,
-              "subheading_name": "Interpersonal Skills",
-              "score": 0
-            },
-            {
-              "id": 4,
-              "subheading_name": "Meal Preparation",
-              "score": 0
-            },
-            {
-              "id": 5,
-              "subheading_name": "Laundry",
-              "score": 0
-            },
-            {
-              "id": 6,
-              "subheading_name": "Route Training",
-              "score": 0
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "heading_name": "Community Support",
-          "scoring_scale": "1-5",
-          "subheadings": [
-            {
-              "id": 1,
-              "subheading_name": "Community Healthcare Providers",
-              "score": 0
-            },
-            {
-              "id": 2,
-              "subheading_name": "Medical Admin Paperwork",
-              "score": 0
-            },
-            {
-              "id": 3,
-              "subheading_name": "Family Support",
-              "score": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "85fc",
-      "assessement_date": "2024-06-28T22:00:00.000Z",
-      "functional_checklist": "McGowan, Emma - Custom",
-      "headings": [
-        {
-          "id": 1,
-          "heading_name": "Activities of Daily Living - ADLs",
-          "scoring_scale": "1-5",
-          "subheadings": [
-            {
-              "id": 1,
-              "subheading_name": "Bath/Shower",
-              "score": 3
-            },
-            {
-              "id": 2,
-              "subheading_name": "Dressing",
-              "score": 4
-            },
-            {
-              "id": 3,
-              "subheading_name": "Personal Hygiene & Grooming",
-              "score": 3
-            },
-            {
-              "id": 4,
-              "subheading_name": "Home Mobility",
-              "score": 0
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "heading_name": "Instrumental Activities of Daily Living - IADLs",
-          "scoring_scale": "1-5",
-          "subheadings": [
-            {
-              "id": 1,
-              "subheading_name": "Self-Medication",
-              "score": 0
-            },
-            {
-              "id": 2,
-              "subheading_name": "Being on Own",
-              "score": 0
-            },
-            {
-              "id": 3,
-              "subheading_name": "Interpersonal Skills",
-              "score": 0
-            },
-            {
-              "id": 4,
-              "subheading_name": "Meal Preparation",
-              "score": 0
-            },
-            {
-              "id": 5,
-              "subheading_name": "Laundry",
-              "score": 0
-            },
-            {
-              "id": 6,
-              "subheading_name": "Route Training",
-              "score": 0
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "heading_name": "Community Support",
-          "scoring_scale": "1-5",
-          "subheadings": [
-            {
-              "id": 1,
-              "subheading_name": "Community Healthcare Providers",
-              "score": 0
-            },
-            {
-              "id": 2,
-              "subheading_name": "Medical Admin Paperwork",
-              "score": 0
-            },
-            {
-              "id": 3,
-              "subheading_name": "Family Support",
-              "score": 0
+              "collaborator_scores": [
+                {
+                  "collaborator": {
+                    "firstname": "Brent",
+                    "lastname": "James",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "OT",
+                      "abbreviation": "OT"
+                    },
+                    "email": "brent.james@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "grade": 3,
+                  "assessement_date": "2024-07-15T22:00:00.000Z"
+                }
+              ]
             }
           ]
         }
@@ -375,7 +656,10 @@
       "clinical_site": {
         "id": 1,
         "name": "string",
-        "location": { "id": 1, "name": "string" }
+        "location": {
+          "id": 1,
+          "name": "string"
+        }
       }
     },
     {
@@ -391,7 +675,10 @@
       "clinical_site": {
         "id": 1,
         "name": "string",
-        "location": { "id": 1, "name": "string" }
+        "location": {
+          "id": 1,
+          "name": "string"
+        }
       }
     },
     {
@@ -407,7 +694,10 @@
       "clinical_site": {
         "id": 1,
         "name": "string",
-        "location": { "id": 1, "name": "string" }
+        "location": {
+          "id": 1,
+          "name": "string"
+        }
       }
     },
     {
@@ -423,7 +713,10 @@
       "clinical_site": {
         "id": 1,
         "name": "string",
-        "location": { "id": 1, "name": "string" }
+        "location": {
+          "id": 1,
+          "name": "string"
+        }
       }
     },
     {
@@ -439,7 +732,10 @@
       "clinical_site": {
         "id": 1,
         "name": "string",
-        "location": { "id": 1, "name": "string" }
+        "location": {
+          "id": 1,
+          "name": "string"
+        }
       }
     }
   ],
@@ -447,69 +743,117 @@
     {
       "firstname": "Kit",
       "lastname": "Mara",
-      "role": { "name": "Healthcare provider", "abbreviation": "HCP" },
-      "position": { "name": "nurse", "abbreviation": "Nur" },
+      "role": {
+        "name": "Healthcare provider",
+        "abbreviation": "HCP"
+      },
+      "position": {
+        "name": "nurse",
+        "abbreviation": "Nur"
+      },
       "email": "kit.mara@example.com",
       "password": "password",
-      "organization": { "name": "The Ottawa Hospital" },
-      "clinical_site": { "name": "Rehab Hospital" },
-      "location": { "name": "Outpatient Stroke Unit" }
+      "organization": {
+        "name": "The Ottawa Hospital"
+      },
+      "clinical_site": {
+        "name": "Rehab Hospital"
+      },
+      "location": {
+        "name": "Outpatient Stroke Unit"
+      }
     },
     {
       "firstname": "Dr. Gupta",
       "lastname": "",
-      "role": { "name": "Healthcare provider", "abbreviation": "HCP" },
+      "role": {
+        "name": "Healthcare provider",
+        "abbreviation": "HCP"
+      },
       "position": {
         "name": "Managing director rehab",
         "abbreviation": "MD-Rehab"
       },
       "email": "gupta@example.com",
       "password": "password",
-      "organization": { "name": "The Ottawa Hospital" },
-      "clinical_site": { "name": "Rehab Hospital" },
-      "location": { "name": "Outpatient Stroke Unit" }
+      "organization": {
+        "name": "The Ottawa Hospital"
+      },
+      "clinical_site": {
+        "name": "Rehab Hospital"
+      },
+      "location": {
+        "name": "Outpatient Stroke Unit"
+      }
     },
     {
       "firstname": "Laura",
       "lastname": "Shah",
-      "role": { "name": "Healthcare provider", "abbreviation": "HCP" },
+      "role": {
+        "name": "Healthcare provider",
+        "abbreviation": "HCP"
+      },
       "position": {
         "name": "Pharmacist",
         "abbreviation": "Pharm"
       },
       "email": "laura.shah@example.com",
       "password": "password",
-      "organization": { "name": "The Ottawa Hospital" },
-      "clinical_site": { "name": "Rehab Hospital" },
-      "location": { "name": "Outpatient Stroke Unit" }
+      "organization": {
+        "name": "The Ottawa Hospital"
+      },
+      "clinical_site": {
+        "name": "Rehab Hospital"
+      },
+      "location": {
+        "name": "Outpatient Stroke Unit"
+      }
     },
     {
       "firstname": "Brent",
       "lastname": "James",
-      "role": { "name": "Healthcare provider", "abbreviation": "HCP" },
+      "role": {
+        "name": "Healthcare provider",
+        "abbreviation": "HCP"
+      },
       "position": {
         "name": "OT",
         "abbreviation": "OT"
       },
       "email": "brent.james@example.com",
       "password": "password",
-      "organization": { "name": "The Ottawa Hospital" },
-      "clinical_site": { "name": "Rehab Hospital" },
-      "location": { "name": "Outpatient Stroke Unit" }
+      "organization": {
+        "name": "The Ottawa Hospital"
+      },
+      "clinical_site": {
+        "name": "Rehab Hospital"
+      },
+      "location": {
+        "name": "Outpatient Stroke Unit"
+      }
     },
     {
       "firstname": "Jenn",
       "lastname": "Wong",
-      "role": { "name": "Healthcare provider", "abbreviation": "HCP" },
+      "role": {
+        "name": "Healthcare provider",
+        "abbreviation": "HCP"
+      },
       "position": {
         "name": "SW",
         "abbreviation": "SW"
       },
       "email": "jenn.wong@example.com",
       "password": "password",
-      "organization": { "name": "The Ottawa Hospital" },
-      "clinical_site": { "name": "Rehab Hospital" },
-      "location": { "name": "Outpatient Stroke Unit" }
+      "organization": {
+        "name": "The Ottawa Hospital"
+      },
+      "clinical_site": {
+        "name": "Rehab Hospital"
+      },
+      "location": {
+        "name": "Outpatient Stroke Unit"
+      }
     }
   ]
 }
