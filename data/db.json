@@ -122,8 +122,8 @@
                 },
                 {
                   "collaborator": {
-                    "firstname": "Dr. Gupta",
-                    "lastname": "",
+                    "firstname": "Gupta",
+                    "lastname": "Sanjeev",
                     "role": {
                       "name": "Healthcare provider",
                       "abbreviation": "HCP"
@@ -764,8 +764,8 @@
       }
     },
     {
-      "firstname": "Dr. Gupta",
-      "lastname": "",
+      "firstname": "Sanjeev",
+      "lastname": "Gupta",
       "role": {
         "name": "Healthcare provider",
         "abbreviation": "HCP"
