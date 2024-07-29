@@ -1460,7 +1460,7 @@
       "gender": "F",
       "age": 77,
       "dob": "11 Nov 1947",
-      "room": 2,
+      "room": 0,
       "status": "enum",
       "clinical_site": {
         "id": 1,
@@ -1479,7 +1479,7 @@
       "gender": "M",
       "age": 56,
       "dob": "2 July 1968",
-      "room": 1,
+      "room": 0,
       "status": "enum",
       "clinical_site": {
         "id": 1,
@@ -1498,7 +1498,7 @@
       "gender": "M",
       "age": 78,
       "dob": "23 Feb 1943",
-      "room": 4,
+      "room": 0,
       "status": "enum",
       "clinical_site": {
         "id": 1,
@@ -1517,7 +1517,7 @@
       "gender": "F",
       "age": 45,
       "dob": "14 Dec 1979",
-      "room": 5,
+      "room": 0,
       "status": "enum",
       "clinical_site": {
         "id": 1,
