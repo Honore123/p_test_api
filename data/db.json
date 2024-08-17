@@ -1664,5 +1664,150 @@
         "name": "Outpatient Stroke Unit"
       }
     }
+  ],
+  "positions": [
+    {
+      "id": 1,
+      "name": "Nurse",
+      "abbreviation": "Nur"
+    },
+    {
+      "id": 2,
+      "name": "Managing director rehab",
+      "abbreviation": "MD-Rehab"
+    },
+    {
+      "id": 3,
+      "name": "Pharmacist",
+      "abbreviation": "Pharm"
+    },
+    {
+      "id": 4,
+      "name": "Occupational Therapist",
+      "abbreviation": "OT"
+    },
+    {
+      "id": 5,
+      "name": "Social Worker",
+      "abbreviation": "SW"
+    },
+    {
+      "id": 6,
+      "name": "Case Manager",
+      "abbreviation": "CM"
+    },
+    {
+      "id": 6,
+      "name": "Dietician",
+      "abbreviation": "Diet"
+    },
+    {
+      "id": 7,
+      "name": "Kinesiologist",
+      "abbreviation": "Kin"
+    },
+    {
+      "id": 8,
+      "name": "Nurse Practitioner",
+      "abbreviation": "NP"
+    },
+    {
+      "id": 9,
+      "name": "Family Doctor",
+      "abbreviation": "MD-Fam"
+    },
+    {
+      "id": 10,
+      "name": "Orthopedic Surgeon",
+      "abbreviation": "MD-Ortho"
+    },
+    {
+      "id": 11,
+      "name": "Psychiatrist",
+      "abbreviation": "MD-Psych"
+    },
+    {
+      "id": 12,
+      "name": "Physician Assistant",
+      "abbreviation": "PA"
+    },
+    {
+      "id": 13,
+      "name": "Physiotherapist",
+      "abbreviation": "Physio"
+    },
+    {
+      "id": 14,
+      "name": "Psychologist",
+      "abbreviation": "Psych"
+    },
+    {
+      "id": 15,
+      "name": "Family Member",
+      "abbreviation": "Fam"
+    },
+    {
+      "id": 16,
+      "name": "Patient",
+      "abbreviation": "Pt"
+    }
+  ],
+  "interventions": [
+    {
+      "id": 1,
+      "name": "Diagnostic Actions",
+      "actions": [
+        {
+          "id": 1,
+          "name": "Assessment"
+        },
+        {
+          "id": 2,
+          "name": "Monitoring"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Therapeutic Actions",
+      "actions": [
+        {
+          "id": 1,
+          "name": "Acupuncture"
+        },
+        {
+          "id": 2,
+          "name": "Consult"
+        },
+        {
+          "id": 3,
+          "name": "Counselling"
+        },
+        {
+          "id": 4,
+          "name": "Education"
+        },
+        {
+          "id": 5,
+          "name": "Exercise"
+        },
+        {
+          "id": 6,
+          "name": "Manual Therapy"
+        },
+        {
+          "id": 7,
+          "name": "Prescription"
+        },
+        {
+          "id": 8,
+          "name": "Psychotherapy"
+        },
+        {
+          "id": 9,
+          "name": "Purchase"
+        }
+      ]
+    }
   ]
 }
