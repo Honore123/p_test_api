@@ -1809,5 +1809,695 @@
         }
       ]
     }
+  ],
+  "care_plan_summaries": [
+    {
+      "author": {
+        "firstname": "Laura",
+        "lastname": "Shah",
+        "role": {
+          "name": "Healthcare provider",
+          "abbreviation": "HCP"
+        },
+        "position": {
+          "name": "Pharmacist",
+          "abbreviation": "Pharm"
+        },
+        "email": "laura.shah@example.com",
+        "password": "password",
+        "organization": {
+          "name": "The Ottawa Hospital"
+        },
+        "clinical_site": {
+          "name": "Rehab Hospital"
+        },
+        "location": {
+          "name": "Outpatient Stroke Unit"
+        }
+      },
+      "care_plan_type": "Individual Provider Care Plan",
+      "headings": [
+        {
+          "id": 1,
+          "heading": {
+            "name": "Activities of Daily Living - ADLs",
+            "subheadings": [
+              {
+                "id": 1,
+                "subheading_name": "Bath/Shower"
+              },
+              {
+                "id": 2,
+                "subheading_name": "Dressing"
+              },
+              {
+                "id": 3,
+                "subheading_name": "Personal Hygiene & Grooming"
+              },
+              {
+                "id": 4,
+                "subheading_name": "Home Mobility"
+              }
+            ]
+          },
+          "functional_issues": [
+            {
+              "id": 1,
+              "intervention": [
+                {
+                  "id": 1,
+                  "name": "Assessment",
+                  "position": {
+                    "id": 1,
+                    "name": "Nurse",
+                    "abbreviation": "Nur"
+                  },
+                  "provider": {
+                    "firstname": "Kit",
+                    "lastname": "Mara",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "nurse",
+                      "abbreviation": "Nur"
+                    },
+                    "email": "kit.mara@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "review_date": "2024-08-05T22:00:00.000Z"
+                },
+                {
+                  "id": 3,
+                  "name": "Counselling",
+                  "position": {
+                    "id": 5,
+                    "name": "Social Worker",
+                    "abbreviation": "SW"
+                  },
+                  "provider": {
+                    "firstname": "Jenn",
+                    "lastname": "Wong",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "SW",
+                      "abbreviation": "SW"
+                    },
+                    "email": "jenn.wong@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "review_date": "2024-08-07T22:00:00.000Z"
+                }
+              ],
+              "name": "Bath/Shower",
+              "initial_score": 2,
+              "initial_score_date": "2024-07-28T22:00:00.000Z",
+              "current_score": 4,
+              "current_score_date": "2024-07-30T22:00:00.000Z",
+              "target_score": 5,
+              "outcome_measurements": "Bath and shower needs improvement"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "heading": {
+            "name": "Instrumental Activities of Daily Living - IADLs",
+            "subheadings": [
+              {
+                "id": 1,
+                "subheading_name": "Self-Medication"
+              },
+              {
+                "id": 2,
+                "subheading_name": "Being on Own"
+              },
+              {
+                "id": 3,
+                "subheading_name": "Interpersonal Skills"
+              },
+              {
+                "id": 4,
+                "subheading_name": "Meal Preparation"
+              },
+              {
+                "id": 5,
+                "subheading_name": "Laundry"
+              },
+              {
+                "id": 6,
+                "subheading_name": "Route Training"
+              }
+            ]
+          },
+          "functional_issues": [
+            {
+              "id": 1,
+              "intervention": [
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "heading": {
+            "name": "Community Support",
+            "subheadings": [
+              {
+                "id": 1,
+                "subheading_name": "Community Healthcare Providers"
+              },
+              {
+                "id": 2,
+                "subheading_name": "Medical Admin Paperwork"
+              },
+              {
+                "id": 3,
+                "subheading_name": "Family Support"
+              }
+            ]
+          },
+          "functional_issues": [
+            {
+              "id": 1,
+              "intervention": [
+                {}
+              ]
+            }
+          ]
+        }
+      ],
+      "id": 1
+    },
+    {
+      "author": {
+        "firstname": "Laura",
+        "lastname": "Shah",
+        "role": {
+          "name": "Healthcare provider",
+          "abbreviation": "HCP"
+        },
+        "position": {
+          "name": "Pharmacist",
+          "abbreviation": "Pharm"
+        },
+        "email": "laura.shah@example.com",
+        "password": "password",
+        "organization": {
+          "name": "The Ottawa Hospital"
+        },
+        "clinical_site": {
+          "name": "Rehab Hospital"
+        },
+        "location": {
+          "name": "Outpatient Stroke Unit"
+        }
+      },
+      "care_plan_type": "Collaborative Care Plan",
+      "meeting_type": "Weekly Conference Rounds",
+      "attendees": [
+        {
+          "firstname": "Kit",
+          "lastname": "Mara",
+          "role": {
+            "name": "Healthcare provider",
+            "abbreviation": "HCP"
+          },
+          "position": {
+            "name": "nurse",
+            "abbreviation": "Nur"
+          },
+          "email": "kit.mara@example.com",
+          "password": "password",
+          "organization": {
+            "name": "The Ottawa Hospital"
+          },
+          "clinical_site": {
+            "name": "Rehab Hospital"
+          },
+          "location": {
+            "name": "Outpatient Stroke Unit"
+          }
+        },
+        {
+          "firstname": "Sanjeev",
+          "lastname": "Gupta",
+          "role": {
+            "name": "Healthcare provider",
+            "abbreviation": "HCP"
+          },
+          "position": {
+            "name": "Managing director rehab",
+            "abbreviation": "MD-Rehab"
+          },
+          "email": "gupta@example.com",
+          "password": "password",
+          "organization": {
+            "name": "The Ottawa Hospital"
+          },
+          "clinical_site": {
+            "name": "Rehab Hospital"
+          },
+          "location": {
+            "name": "Outpatient Stroke Unit"
+          }
+        },
+        {
+          "firstname": "Laura",
+          "lastname": "Shah",
+          "role": {
+            "name": "Healthcare provider",
+            "abbreviation": "HCP"
+          },
+          "position": {
+            "name": "Pharmacist",
+            "abbreviation": "Pharm"
+          },
+          "email": "laura.shah@example.com",
+          "password": "password",
+          "organization": {
+            "name": "The Ottawa Hospital"
+          },
+          "clinical_site": {
+            "name": "Rehab Hospital"
+          },
+          "location": {
+            "name": "Outpatient Stroke Unit"
+          }
+        }
+      ],
+      "headings": [
+        {
+          "id": 1,
+          "heading": {
+            "name": "Activities of Daily Living - ADLs",
+            "subheadings": [
+              {
+                "id": 1,
+                "subheading_name": "Bath/Shower"
+              },
+              {
+                "id": 2,
+                "subheading_name": "Dressing"
+              },
+              {
+                "id": 3,
+                "subheading_name": "Personal Hygiene & Grooming"
+              },
+              {
+                "id": 4,
+                "subheading_name": "Home Mobility"
+              }
+            ]
+          },
+          "functional_issues": [
+            {
+              "id": 1,
+              "intervention": [
+                {
+                  "id": 1,
+                  "name": "Assessment",
+                  "position": {
+                    "id": 2,
+                    "name": "Managing director rehab",
+                    "abbreviation": "MD-Rehab"
+                  },
+                  "provider": {
+                    "firstname": "Sanjeev",
+                    "lastname": "Gupta",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "Managing director rehab",
+                      "abbreviation": "MD-Rehab"
+                    },
+                    "email": "gupta@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "review_date": "2024-08-05T22:00:00.000Z"
+                },
+                {
+                  "id": 3,
+                  "name": "Counselling",
+                  "position": {
+                    "id": 1,
+                    "name": "Nurse",
+                    "abbreviation": "Nur"
+                  },
+                  "provider": {
+                    "firstname": "Kit",
+                    "lastname": "Mara",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "nurse",
+                      "abbreviation": "Nur"
+                    },
+                    "email": "kit.mara@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "review_date": "2024-08-07T22:00:00.000Z"
+                }
+              ],
+              "name": "Dressing",
+              "initial_score": 2,
+              "initial_score_date": "2024-07-28T22:00:00.000Z",
+              "current_score": 4,
+              "current_score_date": "2024-07-30T22:00:00.000Z",
+              "target_score": 5,
+              "outcome_measurements": "Bath and shower needs improvement"
+            },
+            {
+              "id": 2,
+              "intervention": [
+                {
+                  "id": 3,
+                  "name": "Counselling",
+                  "position": {
+                    "id": 4,
+                    "name": "Occupational Therapist",
+                    "abbreviation": "OT"
+                  },
+                  "provider": {
+                    "firstname": "Brent",
+                    "lastname": "James",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "OT",
+                      "abbreviation": "OT"
+                    },
+                    "email": "brent.james@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "review_date": "2024-07-29T22:00:00.000Z"
+                }
+              ],
+              "name": "Personal Hygiene & Grooming",
+              "initial_score": 1,
+              "initial_score_date": "2024-07-29T22:00:00.000Z",
+              "current_score": 3,
+              "current_score_date": "2024-08-06T22:00:00.000Z",
+              "target_score": 5,
+              "outcome_measurements": "Improvement in personal hygiene"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "heading": {
+            "name": "Instrumental Activities of Daily Living - IADLs",
+            "subheadings": [
+              {
+                "id": 1,
+                "subheading_name": "Self-Medication"
+              },
+              {
+                "id": 2,
+                "subheading_name": "Being on Own"
+              },
+              {
+                "id": 3,
+                "subheading_name": "Interpersonal Skills"
+              },
+              {
+                "id": 4,
+                "subheading_name": "Meal Preparation"
+              },
+              {
+                "id": 5,
+                "subheading_name": "Laundry"
+              },
+              {
+                "id": 6,
+                "subheading_name": "Route Training"
+              }
+            ]
+          },
+          "functional_issues": [
+            {
+              "id": 1,
+              "intervention": [
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "heading": {
+            "name": "Community Support",
+            "subheadings": [
+              {
+                "id": 1,
+                "subheading_name": "Community Healthcare Providers"
+              },
+              {
+                "id": 2,
+                "subheading_name": "Medical Admin Paperwork"
+              },
+              {
+                "id": 3,
+                "subheading_name": "Family Support"
+              }
+            ]
+          },
+          "functional_issues": [
+            {
+              "id": 1,
+              "intervention": [
+                {}
+              ]
+            }
+          ]
+        }
+      ],
+      "id": 2
+    },
+    {
+      "date": "2024-08-27T22:00:00.000Z",
+      "author": {
+        "firstname": "Laura",
+        "lastname": "Shah",
+        "role": {
+          "name": "Healthcare provider",
+          "abbreviation": "HCP"
+        },
+        "position": {
+          "name": "Pharmacist",
+          "abbreviation": "Pharm"
+        },
+        "email": "laura.shah@example.com",
+        "password": "password",
+        "organization": {
+          "name": "The Ottawa Hospital"
+        },
+        "clinical_site": {
+          "name": "Rehab Hospital"
+        },
+        "location": {
+          "name": "Outpatient Stroke Unit"
+        }
+      },
+      "care_plan_type": "Individual Provider Care Plan",
+      "headings": [
+        {
+          "id": 1,
+          "heading": {
+            "name": "Activities of Daily Living - ADLs",
+            "subheadings": [
+              {
+                "id": 1,
+                "subheading_name": "Bath/Shower"
+              },
+              {
+                "id": 2,
+                "subheading_name": "Dressing"
+              },
+              {
+                "id": 3,
+                "subheading_name": "Personal Hygiene & Grooming"
+              },
+              {
+                "id": 4,
+                "subheading_name": "Home Mobility"
+              }
+            ]
+          },
+          "functional_issues": [
+            {
+              "id": 1,
+              "intervention": [
+                {
+                  "id": 1,
+                  "name": "Assessment",
+                  "position": {
+                    "id": 3,
+                    "name": "Pharmacist",
+                    "abbreviation": "Pharm"
+                  },
+                  "provider": {
+                    "firstname": "Laura",
+                    "lastname": "Shah",
+                    "role": {
+                      "name": "Healthcare provider",
+                      "abbreviation": "HCP"
+                    },
+                    "position": {
+                      "name": "Pharmacist",
+                      "abbreviation": "Pharm"
+                    },
+                    "email": "laura.shah@example.com",
+                    "password": "password",
+                    "organization": {
+                      "name": "The Ottawa Hospital"
+                    },
+                    "clinical_site": {
+                      "name": "Rehab Hospital"
+                    },
+                    "location": {
+                      "name": "Outpatient Stroke Unit"
+                    }
+                  },
+                  "review_date": "2024-07-29T22:00:00.000Z"
+                }
+              ],
+              "name": "Bath/Shower",
+              "initial_score": 5,
+              "initial_score_date": "2024-07-29T22:00:00.000Z",
+              "current_score": 4,
+              "current_score_date": "2024-07-28T22:00:00.000Z",
+              "target_score": 4,
+              "outcome_measurements": "testing"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "heading": {
+            "name": "Instrumental Activities of Daily Living - IADLs",
+            "subheadings": [
+              {
+                "id": 1,
+                "subheading_name": "Self-Medication"
+              },
+              {
+                "id": 2,
+                "subheading_name": "Being on Own"
+              },
+              {
+                "id": 3,
+                "subheading_name": "Interpersonal Skills"
+              },
+              {
+                "id": 4,
+                "subheading_name": "Meal Preparation"
+              },
+              {
+                "id": 5,
+                "subheading_name": "Laundry"
+              },
+              {
+                "id": 6,
+                "subheading_name": "Route Training"
+              }
+            ]
+          },
+          "functional_issues": [
+            {
+              "id": 1,
+              "intervention": [
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "heading": {
+            "name": "Community Support",
+            "subheadings": [
+              {
+                "id": 1,
+                "subheading_name": "Community Healthcare Providers"
+              },
+              {
+                "id": 2,
+                "subheading_name": "Medical Admin Paperwork"
+              },
+              {
+                "id": 3,
+                "subheading_name": "Family Support"
+              }
+            ]
+          },
+          "functional_issues": [
+            {
+              "id": 1,
+              "intervention": [
+                {}
+              ]
+            }
+          ]
+        }
+      ],
+      "id": 3
+    }
   ]
 }
