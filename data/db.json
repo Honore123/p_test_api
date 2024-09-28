@@ -814,18 +814,24 @@
     },
     {
       "id": 9,
-      "name": "Family Doctor",
-      "abbreviation": "MD-Fam"
-    },
-    {
-      "id": 10,
-      "name": "Orthopedic Surgeon",
-      "abbreviation": "MD-Ortho"
-    },
-    {
-      "id": 11,
-      "name": "Psychiatrist",
-      "abbreviation": "MD-Psych"
+      "name": "Physician",
+      "subPositions": [
+        {
+          "id": 59,
+          "name": "Family Doctor",
+          "abbreviation": "MD-Fam"
+        },
+        {
+          "id": 60,
+          "name": "Orthopedic Surgeon",
+          "abbreviation": "MD-Ortho"
+        },
+        {
+          "id": 61,
+          "name": "Psychiatrist",
+          "abbreviation": "MD-Psych"
+        }
+      ]
     },
     {
       "id": 12,
@@ -1088,9 +1094,7 @@
           "functional_issues": [
             {
               "id": 1,
-              "intervention": [
-                {}
-              ]
+              "intervention": [{}]
             }
           ]
         },
@@ -1116,9 +1120,7 @@
           "functional_issues": [
             {
               "id": 1,
-              "intervention": [
-                {}
-              ]
+              "intervention": [{}]
             }
           ]
         }
@@ -1406,9 +1408,7 @@
           "functional_issues": [
             {
               "id": 1,
-              "intervention": [
-                {}
-              ]
+              "intervention": [{}]
             }
           ]
         },
@@ -1434,9 +1434,7 @@
           "functional_issues": [
             {
               "id": 1,
-              "intervention": [
-                {}
-              ]
+              "intervention": [{}]
             }
           ]
         }
@@ -1575,9 +1573,7 @@
           "functional_issues": [
             {
               "id": 1,
-              "intervention": [
-                {}
-              ]
+              "intervention": [{}]
             }
           ]
         },
@@ -1603,9 +1599,7 @@
           "functional_issues": [
             {
               "id": 1,
-              "intervention": [
-                {}
-              ]
+              "intervention": [{}]
             }
           ]
         }
