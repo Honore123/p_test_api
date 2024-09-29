@@ -773,11 +773,6 @@
       "abbreviation": "Nur"
     },
     {
-      "id": 2,
-      "name": "Rehab Specialist",
-      "abbreviation": "MD-Rehab"
-    },
-    {
       "id": 3,
       "name": "Pharmacist",
       "abbreviation": "Pharm"
@@ -830,6 +825,11 @@
           "id": 61,
           "name": "Psychiatrist",
           "abbreviation": "MD-Psych"
+        },
+        {
+          "id": 2,
+          "name": "Rehab Specialist",
+          "abbreviation": "MD-Rehab"
         }
       ]
     },
