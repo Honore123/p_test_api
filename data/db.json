@@ -849,14 +849,20 @@
       "abbreviation": "Psych"
     },
     {
-      "id": 15,
-      "name": "Family Member",
-      "abbreviation": "Fam"
-    },
-    {
-      "id": 16,
-      "name": "Patient",
-      "abbreviation": "Pt"
+      "id": 151,
+      "name": "special_positions",
+      "subPositions": [
+        {
+          "id": 15,
+          "name": "Family Member",
+          "abbreviation": "Fam"
+        },
+        {
+          "id": 16,
+          "name": "Patient",
+          "abbreviation": "Pt"
+        }
+      ]
     }
   ],
   "interventions": [
